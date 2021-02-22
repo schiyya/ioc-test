@@ -7,17 +7,13 @@ class Player {
         this.title = title
         this.url = url
         this.duration_sec = duration
-        this.bookmark = !position ? 0 : position
-        console.log('Created New Player');
-        
+        this.bookmark = !position ? 0 : position        
     }
     public getTitle(): string {
         return this.title
     }
 
     public getDuration(): number {
-        console.log(this.duration_sec);
-        
         return this.duration_sec
     }
 

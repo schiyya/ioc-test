@@ -17,10 +17,8 @@ var JumpPosition = /** @class */ (function () {
     function JumpPosition() {
     }
     JumpPosition.prototype.setPosition = function (position) {
-        console.log('Set Position ' + position);
     };
     JumpPosition.prototype.getPosition = function () {
-        console.log('Get Position');
         return 1;
     };
     JumpPosition = __decorate([
@@ -33,10 +31,8 @@ var JumpSpeeds = /** @class */ (function () {
     function JumpSpeeds() {
     }
     JumpSpeeds.prototype.setSpeed = function (speed) {
-        console.log('Set Speed ' + speed);
     };
     JumpSpeeds.prototype.getSpeed = function () {
-        console.log('Get Speed');
         return 1;
     };
     JumpSpeeds = __decorate([
@@ -65,36 +61,3 @@ var HLSPlayer = /** @class */ (function () {
     return HLSPlayer;
 }());
 exports.HLSPlayer = HLSPlayer;
-// class HLSPlayer implements TYPES.Iplay {
-//     private _position: number
-//     private _speed: number
-//     constructor() {
-//         this._position = 0
-//         this._speed = 1
-//     }
-//     start(player: Player):any {
-//         console.log('Play started from ' + player.getBookmark());
-//         this._position = player.getBookmark()
-//         this._speed = 1
-//         return true
-//     }
-//     getPosition(): number {
-//         return this._position + 1
-//     }
-//     increment(): any {
-//         setTimeout(()=> {
-//             this._position++;
-//             console.log('Incrementing position');
-//             this.increment()
-//         }, 1000)
-//     }
-//     setPosition(position: number): any {
-//         this._position = position
-//     }
-//     getSpeed(): number {
-//         return this._speed
-//     }
-//     setSpeed(speed: number): any {
-//         this._speed = speed
-//     }
-//  }
