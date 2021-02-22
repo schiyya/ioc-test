@@ -1,7 +1,7 @@
 import { Container } from "inversify";
-import TYPES from "./types";
-import {player, jspeeds, jposition} from './interfaces'
-import {JumpPosition, JumpSpeeds, HLSPlayer} from './hlsPlayer'
+import TYPES from "../interface/types";
+import {player, jspeeds, jposition} from '../interface/interfaces'
+import {JumpPosition, JumpSpeeds, HLSPlayer} from '../lib/hlsPlayer'
 
 const container = new Container();
 

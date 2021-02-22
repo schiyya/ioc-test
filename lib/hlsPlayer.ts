@@ -1,7 +1,7 @@
 import { injectable, inject } from 'inversify'
-import TYPES from './types'
+import TYPES from '../interface/types'
 import 'reflect-metadata'
-import {player, jspeeds, jposition} from './interfaces'
+import {player, jspeeds, jposition} from '../interface/interfaces'
 
 @injectable()
 class JumpPosition implements jposition {
