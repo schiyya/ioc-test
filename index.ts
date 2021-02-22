@@ -1,4 +1,4 @@
-import container  from './inversify.config';
+import container  from './container/inversify.config';
 import TYPES from './interface/types'
 import {player, jspeeds, jposition} from './interface/interfaces'
 

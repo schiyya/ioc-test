@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var inversify_1 = require("inversify");
 var types_1 = require("../interface/types");
-var hlsPlayer_1 = require("./hlsPlayer");
+var hlsPlayer_1 = require("../lib/hlsPlayer");
 var container = new inversify_1.Container();
 container.bind(types_1["default"].player).to(hlsPlayer_1.HLSPlayer);
 container.bind(types_1["default"].jspeeds).to(hlsPlayer_1.JumpSpeeds);
